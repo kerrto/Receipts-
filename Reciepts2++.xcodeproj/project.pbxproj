@@ -9,13 +9,19 @@
 /* Begin PBXBuildFile section */
 		AB89A1F71C6416CC00B9F46A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB89A1F61C6416CC00B9F46A /* main.m */; };
 		AB89A1FA1C6416CC00B9F46A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB89A1F91C6416CC00B9F46A /* AppDelegate.m */; };
-		AB89A1FD1C6416CC00B9F46A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB89A1FC1C6416CC00B9F46A /* ViewController.m */; };
 		AB89A2001C6416CC00B9F46A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB89A1FE1C6416CC00B9F46A /* Main.storyboard */; };
 		AB89A2031C6416CC00B9F46A /* Reciepts2__.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AB89A2011C6416CC00B9F46A /* Reciepts2__.xcdatamodeld */; };
 		AB89A2051C6416CC00B9F46A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB89A2041C6416CC00B9F46A /* Assets.xcassets */; };
 		AB89A2081C6416CC00B9F46A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB89A2061C6416CC00B9F46A /* LaunchScreen.storyboard */; };
 		AB89A2131C6416CC00B9F46A /* Reciepts2__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB89A2121C6416CC00B9F46A /* Reciepts2__Tests.m */; };
 		AB89A21E1C6416CC00B9F46A /* Reciepts2__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB89A21D1C6416CC00B9F46A /* Reciepts2__UITests.m */; };
+		AB89A22D1C64265500B9F46A /* ReceiptsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AB89A22C1C64265500B9F46A /* ReceiptsTableViewCell.m */; };
+		AB89A2301C64268500B9F46A /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB89A22F1C64268500B9F46A /* MainTableViewController.m */; };
+		AB89A2331C64272000B9F46A /* AddNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB89A2321C64272000B9F46A /* AddNewViewController.m */; };
+		AB89A23C1C6428B500B9F46A /* Tag+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = AB89A2351C6428B500B9F46A /* Tag+CoreDataProperties.m */; };
+		AB89A23D1C6428B500B9F46A /* Tag.m in Sources */ = {isa = PBXBuildFile; fileRef = AB89A2371C6428B500B9F46A /* Tag.m */; };
+		AB89A23E1C6428B500B9F46A /* Receipt+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = AB89A2391C6428B500B9F46A /* Receipt+CoreDataProperties.m */; };
+		AB89A23F1C6428B500B9F46A /* Receipt.m in Sources */ = {isa = PBXBuildFile; fileRef = AB89A23B1C6428B500B9F46A /* Receipt.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +46,6 @@
 		AB89A1F61C6416CC00B9F46A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AB89A1F81C6416CC00B9F46A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AB89A1F91C6416CC00B9F46A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AB89A1FB1C6416CC00B9F46A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AB89A1FC1C6416CC00B9F46A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		AB89A1FF1C6416CC00B9F46A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AB89A2021C6416CC00B9F46A /* Reciepts2__.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Reciepts2__.xcdatamodel; sourceTree = "<group>"; };
 		AB89A2041C6416CC00B9F46A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +57,20 @@
 		AB89A2191C6416CC00B9F46A /* Reciepts2++UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Reciepts2++UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB89A21D1C6416CC00B9F46A /* Reciepts2__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Reciepts2__UITests.m; sourceTree = "<group>"; };
 		AB89A21F1C6416CC00B9F46A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB89A22B1C64265500B9F46A /* ReceiptsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReceiptsTableViewCell.h; path = ../ReceiptsTableViewCell.h; sourceTree = "<group>"; };
+		AB89A22C1C64265500B9F46A /* ReceiptsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReceiptsTableViewCell.m; path = ../ReceiptsTableViewCell.m; sourceTree = "<group>"; };
+		AB89A22E1C64268500B9F46A /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainTableViewController.h; path = ../MainTableViewController.h; sourceTree = "<group>"; };
+		AB89A22F1C64268500B9F46A /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainTableViewController.m; path = ../MainTableViewController.m; sourceTree = "<group>"; };
+		AB89A2311C64272000B9F46A /* AddNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddNewViewController.h; sourceTree = "<group>"; };
+		AB89A2321C64272000B9F46A /* AddNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddNewViewController.m; sourceTree = "<group>"; };
+		AB89A2341C6428B500B9F46A /* Tag+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Tag+CoreDataProperties.h"; sourceTree = "<group>"; };
+		AB89A2351C6428B500B9F46A /* Tag+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Tag+CoreDataProperties.m"; sourceTree = "<group>"; };
+		AB89A2361C6428B500B9F46A /* Tag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tag.h; sourceTree = "<group>"; };
+		AB89A2371C6428B500B9F46A /* Tag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tag.m; sourceTree = "<group>"; };
+		AB89A2381C6428B500B9F46A /* Receipt+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Receipt+CoreDataProperties.h"; sourceTree = "<group>"; };
+		AB89A2391C6428B500B9F46A /* Receipt+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Receipt+CoreDataProperties.m"; sourceTree = "<group>"; };
+		AB89A23A1C6428B500B9F46A /* Receipt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Receipt.h; sourceTree = "<group>"; };
+		AB89A23B1C6428B500B9F46A /* Receipt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Receipt.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,11 +123,23 @@
 			children = (
 				AB89A1F81C6416CC00B9F46A /* AppDelegate.h */,
 				AB89A1F91C6416CC00B9F46A /* AppDelegate.m */,
-				AB89A1FB1C6416CC00B9F46A /* ViewController.h */,
-				AB89A1FC1C6416CC00B9F46A /* ViewController.m */,
 				AB89A1FE1C6416CC00B9F46A /* Main.storyboard */,
+				AB89A2341C6428B500B9F46A /* Tag+CoreDataProperties.h */,
+				AB89A2351C6428B500B9F46A /* Tag+CoreDataProperties.m */,
+				AB89A2361C6428B500B9F46A /* Tag.h */,
+				AB89A2371C6428B500B9F46A /* Tag.m */,
+				AB89A2381C6428B500B9F46A /* Receipt+CoreDataProperties.h */,
+				AB89A2391C6428B500B9F46A /* Receipt+CoreDataProperties.m */,
+				AB89A23A1C6428B500B9F46A /* Receipt.h */,
+				AB89A23B1C6428B500B9F46A /* Receipt.m */,
+				AB89A2311C64272000B9F46A /* AddNewViewController.h */,
+				AB89A2321C64272000B9F46A /* AddNewViewController.m */,
 				AB89A2041C6416CC00B9F46A /* Assets.xcassets */,
 				AB89A2061C6416CC00B9F46A /* LaunchScreen.storyboard */,
+				AB89A22E1C64268500B9F46A /* MainTableViewController.h */,
+				AB89A22F1C64268500B9F46A /* MainTableViewController.m */,
+				AB89A22B1C64265500B9F46A /* ReceiptsTableViewCell.h */,
+				AB89A22C1C64265500B9F46A /* ReceiptsTableViewCell.m */,
 				AB89A2091C6416CC00B9F46A /* Info.plist */,
 				AB89A2011C6416CC00B9F46A /* Reciepts2__.xcdatamodeld */,
 				AB89A1F51C6416CC00B9F46A /* Supporting Files */,
@@ -276,9 +306,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB89A1FD1C6416CC00B9F46A /* ViewController.m in Sources */,
+				AB89A22D1C64265500B9F46A /* ReceiptsTableViewCell.m in Sources */,
+				AB89A2331C64272000B9F46A /* AddNewViewController.m in Sources */,
 				AB89A1FA1C6416CC00B9F46A /* AppDelegate.m in Sources */,
+				AB89A23E1C6428B500B9F46A /* Receipt+CoreDataProperties.m in Sources */,
 				AB89A1F71C6416CC00B9F46A /* main.m in Sources */,
+				AB89A23D1C6428B500B9F46A /* Tag.m in Sources */,
+				AB89A23F1C6428B500B9F46A /* Receipt.m in Sources */,
+				AB89A23C1C6428B500B9F46A /* Tag+CoreDataProperties.m in Sources */,
+				AB89A2301C64268500B9F46A /* MainTableViewController.m in Sources */,
 				AB89A2031C6416CC00B9F46A /* Reciepts2__.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -503,6 +539,7 @@
 				AB89A2241C6416CC00B9F46A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AB89A2251C6416CC00B9F46A /* Build configuration list for PBXNativeTarget "Reciepts2++Tests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +548,7 @@
 				AB89A2271C6416CC00B9F46A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AB89A2281C6416CC00B9F46A /* Build configuration list for PBXNativeTarget "Reciepts2++UITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +557,7 @@
 				AB89A22A1C6416CC00B9F46A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
